@@ -1,0 +1,22 @@
+.category {
+    color: #1C1C39;
+    margin-bottom: 10px;
+}
+
+.category__title {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 25px
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.category__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 -10px;
+}

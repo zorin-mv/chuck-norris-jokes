@@ -1,0 +1,19 @@
+header {
+    background: #422ED4;
+    padding: 8px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__visual {
+    width: 43px;
+    height: 43px;
+}
+
+.logo__name {
+    font-weight: 800;
+    padding: 0 10px;
+}

@@ -1,0 +1,17 @@
+.category__item {
+    padding: 18px 15px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 800;
+    width: 170px;
+    box-shadow: 0px 22px 80px rgba(72, 70, 106, 0.07), 0px 2.75474px 10.0172px rgba(72, 70, 106, 0.035);
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.category__item:hover {
+    background-color: #422ED4;
+    color: #fff;
+}
