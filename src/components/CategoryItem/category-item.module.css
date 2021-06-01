@@ -1,4 +1,4 @@
-.category__item {
+.categoryItem {
     padding: 18px 15px;
     background: #fff;
     border-radius: 20px;
@@ -11,7 +11,7 @@
     transition: background-color 0.5s, color 0.5s;
 }
 
-.category__item:hover {
+.categoryItem:hover {
     background-color: #422ED4;
     color: #fff;
 }

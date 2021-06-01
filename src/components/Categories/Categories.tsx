@@ -1,15 +1,19 @@
 import React from "react";
+import ICategoriesProps from "../../types/categories-props-interface";
 import CategoryItem from "../CategoryItem/CategoryItem";
 import classes from "./categories.module.css";
 
-const Categories = ({ categories, clickHandler }) => {
+const Categories: React.FC<ICategoriesProps> = ({
+    categories,
+    clickHandler,
+}) => {
     return (
         <div className={classes.category}>
-            <div className={classes.category__title}>
+            <div className={classes.categoryTitle}>
                 <h1>Categories</h1>
             </div>
-            <ul className={classes.category__list}>
-                {categories.map((category, index) => {
+            <ul className={classes.categoryList}>
+                {categories.map((category: string, index: number) => {
                     return (
                         <CategoryItem
                             key={index}

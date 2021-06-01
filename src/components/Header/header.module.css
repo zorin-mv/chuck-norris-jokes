@@ -8,12 +8,12 @@ header {
     align-items: center;
 }
 
-.logo__visual {
+.logoVisual {
     width: 43px;
     height: 43px;
 }
 
-.logo__name {
+.logoName {
     font-weight: 800;
     padding: 0 10px;
 }
